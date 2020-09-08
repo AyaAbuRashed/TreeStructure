@@ -1,13 +1,52 @@
-section{
+section,
+.content {
     text-align: center;
 }
-h1{padding: 20px;
-font-size: 40px;
-font-weight: bold;
+
+h1 {
+    padding: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px blue;
 }
 
-p{
+p {
     letter-spacing: 1px;
     font-size: 20px;
-    
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    background: url('../img/3.jpg');
+    background-blend-mode: screen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+    height: 75vh;
+}
+
+svg {
+    position: absolute;
+    bottom: 200px;
+}
+
+ h2 {
+    font-size: 60px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 20px;
+}
+
+ol {
+    margin-bottom: 200px;
+}
+
+li {
+    font-size: 20px;
+    margin: 15px;
 }
