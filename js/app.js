@@ -1,4 +1,5 @@
 // the first question about my name 
+function Q1(){
 let name = prompt("1 - do you know my name");
 if (name == '') {
     alert("the name is empty")
@@ -7,7 +8,8 @@ if (name == '') {
 } else {
     alert('wrong but that\'s ok')
 }
-
+}
+function Q2(){
 // the second question about my favorite color
 let color = prompt("2 - what is my favorite color");
 if (color == '') {
@@ -17,6 +19,8 @@ if (color == '') {
 } else {
     alert('wrong but that\'s ok')
 }
+}
+function Q3(){
 
 // the third question about My favorite car color
 let cars = prompt("3 - what is kind of cars color do i like");
@@ -27,7 +31,8 @@ if (cars == '') {
 } else {
     alert('wrong but that\'s ok')
 }
-
+}
+function Q4(){
 // I love lamb so this qustion about my best food 
 let food = prompt("4 - what is my favorite food");
 if (food == '') {
@@ -37,7 +42,8 @@ if (food == '') {
 } else {
     alert('wrong but that\'s ok')
 }
-
+}
+function Q5(){
 // about my age
 let age = prompt("5 - do you know my age");
 if (age == '') {
@@ -49,7 +55,8 @@ if (age == '') {
 } else {
     alert('wrong but that\'s ok')
 }
-
+}
+function Q6(){
 // this variable for while
 let i = 0;
 // this variable for check in the end if the answer false i will give him the right answer
@@ -71,7 +78,8 @@ while (i < 4) {
 if (check != true) {
     alert('sorry you failed the right answer is : 33')
 }
-
+}
+function Q7(){
 // this the seven question about asken the user one of these numbers ... when loop finesh i will give the mark to user
 alert('Now let\'s play this game but You must know the correct numbers within 6 attempts . Are you ready ??')
 let arrayRandom = [12, 25, 31, 48, 120, 47]
@@ -88,3 +96,12 @@ for (let k = 0; k < 6; k++) {
 }
 
 alert(`you got ${rightAnswer} marks`)
+}
+
+Q1();
+Q2();
+Q3();
+Q4();
+Q5();
+Q6();
+Q7();
