@@ -5,7 +5,7 @@ if (name == '') {
 } else if (name == 'hamza') {
     alert('you are right perfect')
 } else {
-    alert('wrong')
+    alert('wrong but that\'s ok')
 }
 
 // the second question about my favorite color
@@ -15,7 +15,7 @@ if (color == '') {
 } else if (color == 'blue') {
     alert("perfect that is right");
 } else {
-    alert('wrong')
+    alert('wrong but that\'s ok')
 }
 
 // the third question about My favorite car color
@@ -25,7 +25,7 @@ if (cars == '') {
 } else if (cars == 'green') {
     alert('you are right perfect')
 } else {
-    alert('wrong')
+    alert('wrong but that\'s ok')
 }
 
 // I love lamb so this qustion about my best food 
@@ -35,7 +35,7 @@ if (food == '') {
 } else if (food == 'lamb') {
     alert("perfect that is right");
 } else {
-    alert('wrong')
+    alert('wrong but that\'s ok')
 }
 
 // about my age
@@ -47,7 +47,7 @@ if (age == '') {
     console.log('you are right perfect')
     alert('you are right perfect')
 } else {
-    alert('wrong')
+    alert('wrong but that\'s ok')
 }
 
 // this variable for while
@@ -73,6 +73,7 @@ if (check != true) {
 }
 
 // this the seven question about asken the user one of these numbers ... when loop finesh i will give the mark to user
+alert('Now let\'s play this game but You must know the correct numbers within 6 attempts . Are you ready ??')
 let arrayRandom = [12, 25, 31, 48, 120, 47]
 let rightAnswer = 0;
 for (let k = 0; k < 6; k++) {
