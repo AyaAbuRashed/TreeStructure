@@ -105,3 +105,46 @@ Q4();
 Q5();
 Q6();
 Q7();
+
+
+
+
+// var movies = ["The Matrix", "Frozen"];
+// console.log(typeof(typeof(movies)))
+
+
+
+
+
+
+
+
+
+// function rety(num) {
+
+//     let fun = num-1
+// for(let i=0 ; i<=fun ; i++) {
+
+// for(let j=1 ; j<=i ; j++) {
+//     document.write(j + " ")
+// }
+// document.write('<br>')
+// }
+
+
+// // for(let i=1 ; i<=num ; i++) {
+// //     for(let k=0 ; k>=i ; k--) {
+// //         document.write(" ")
+// //     }
+// //     for(let j=1 ; j<=i ; j++) {
+// //         document.write(j + " ")
+// //     }
+// //     document.write('<br>')
+// // }
+// }
+
+// rety(10)
+
+
+
+
